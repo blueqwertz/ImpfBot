@@ -1,0 +1,11 @@
+{
+    "name": "Impfbot",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://termin.impfung.at/no/start/termine", "https://termin.impfung.at/no/a/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
